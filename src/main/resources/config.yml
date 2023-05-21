@@ -1,0 +1,102 @@
+command_min_length: "§e[!] §fМинимальная длинна префикса в чате не должна быть меньше 1 символа!"
+command_max_length: "§e[!] §fМаксимальная длинна префикса в чате не должна превышать 9 символов!"
+command_message_permissions: "§e[!] §fУ вас нет прав на использование данной команды!"
+command_message_help:
+  - "  &6&lToffi&f&lPrefix"
+  - "&6"
+  - "&6 * &f/toffiprefix all [префикс] &6- &fустоновка префикса в чате и в табе"
+  - "&6 * &f/toffiprefix tab [префикс] &6- &fустоновка префикса в табе"
+  - "&6 * &f/toffiprefix chat [префикс] &6- &fустоновка префикса в чате"
+  - "&6"
+command_message_valid_text: "§e[!] §fУвы надо изменить ибо можно использовать только вот этот порядок символов"
+
+command_chat_valid_symbol_message: "§e[!] §fПрефикс в чате &7%prefix% ✎ §fустановлен!"
+command_chat_valid_symbol_format_prefix: "§7%prefix% ✎ "
+command_chat_message: "§e[!] §fПрефикс в чате %prefix% ✎ §fустановлен!"
+command_chat_format_prefix: "%prefix% ✎ "
+
+command_tab_valid_symbol_message: "§e[!] §fПрефикс в табе &7%prefix% ✎ §fустановлен!"
+command_tab_valid_symbol_format_prefix: "§7%prefix% ✎ "
+command_tab_message: "§e[!] §fПрефикс в табе %prefix% ✎ §fустановлен!"
+command_tab_format_prefix: "%prefix% ✎ "
+
+command_all_valid_symbol_message: "§e[!] §fПрефикс везде &7%prefix% ✎ §fустановлен!"
+command_all_valid_symbol_format_prefix: "§7%prefix% ✎ "
+command_all_message: "§e[!] §fПрефикс везде %prefix% ✎ §fустановлен!"
+command_all_format_prefix: "%prefix% ✎ "
+
+command_valid_symbols_after_format: ".*&[A-Za-z0-9]{1}.*"
+command_valid_symbols_format: "^[А-Яа-я0-9+\\-@№#%&?]*(&[A-Za-z])?[А-Яа-я+\\-@№#%&?]*$"
+command_prefix_min_length: 1
+command_prefix_max_length: 9
+
+
+# права человека
+command_permission_use: "toffiprefix.use"
+command_permission_bypass: "toffiprefix.bypass"
+chat_permissions_color: "toffiprefix.chat.color"
+chat_permissions_show_realname: "toffiprefix.chat.showrealname"
+chat_permissions_cooldown_bypass: "toffiprefix.chat.bypass"
+
+
+maridb_user: "root"
+maridb_password: "fleyer"
+maridb_port: 3306
+maridb_dbname: "fleyerlox"
+maridb_host: "localhost"
+
+chat_global_symbol: "!"
+chat_range: 50
+chat_global_delay: 5
+chat_local_delay: 1
+chat_delay_message: Ну ля будь добр подождать %sec% секунд
+chat_local_format: '[L] {prefix} {player} {suffix} {message}'
+chat_global_format: '[G] {prefix} {player} {suffix} {message}'
+chat_placeholder_prefix: '%toffiprefix_chatprefix%'
+chat_placeholder_suffix: '%vault_suffix%'
+
+
+tab_header: "§bSourceCode\n§3Welcome to our server!"
+tab_footer: "§bSourceCode\n§3Welcome to our two!\nhandle"
+tab_refresh_period: 60 # 20 тиков == 1 секунде
+
+statuses:
+  default:
+    prefix: '&2'
+    priority: 12
+  vip:
+    prefix: '&e┃ &aВИП &2'
+    priority: 11
+  premium:
+    prefix: '&e┃ &6Пре'
+    priority: 10
+  creative:
+    prefix: '&e┃ &3Кре'
+    priority: 9
+  king:
+    prefix: '&e┃ &9К'
+    priority: 8
+  admin:
+    prefix: '&e┃ &eАдм'
+    priority: 7
+  ultra:
+    prefix: '&e┃ &4Ула& &6'
+    priority: 6
+  anti:
+    prefix: '&e┃ &dАнт &6'
+    priority: 5
+  developer:
+    prefix: '&e┃ &bПове'
+    priority: 4
+  creator:
+    prefix: '&e┃ &cСоздат&6'
+    priority: 3
+  console:
+    prefix: '&e┃ &c&lВладе &6'
+    priority: 2
+  moder:
+    prefix: '&c┃  &aМодераc'
+    priority: 1
+  owner:
+    prefix: '&c┃ &aОсновc'
+    priority: 0

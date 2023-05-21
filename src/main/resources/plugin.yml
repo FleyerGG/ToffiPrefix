@@ -1,0 +1,10 @@
+name: ToffiPrefix
+version: '${project.version}'
+main: ru.fleyer.toffiprefix.ToffiPrefix
+authors: [ Fleyer001 ]
+description: test plugin prefix
+softdepend:
+  - PlaceholderAPI
+commands:
+  toffiprefix:
+    description: test command tofficraft prefix plugin

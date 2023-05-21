@@ -1,0 +1,36 @@
+boards_refresh: 20
+
+base_title: "&bToffiCraft"
+base_lines:
+  - "ваш ник: %player_name%"
+  - "&c2"
+  - "&1группа: %toffiprefix_chatprefix%"
+  - "суффикс: %vault_suffix%"
+
+boards:
+  test:
+    title: "&cToffiCraft"
+    region: "tests"
+    lines:
+      - "aваш ник: layeasr_name%"
+      - "ss2"
+      - "sdгруппа: лоdsх"
+      - "dсуффикс:ault_suffix%"
+      - "dfdfd"
+  testss:
+    title: "&6ToffiCraft"
+    region: "testss"
+    lines:
+      - "ваш ник: %player_name%"
+      - "332"
+      - "группа: лох"
+      - "суффикс: %vault_suffix%"
+  spawn:
+    title: "&dToffiCraft"
+    region: "spawn"
+    lines:
+      - "ваш ник: %player_name%"
+      - "sss"
+      - "df"
+      - "группа: лох"
+      - "суффикс: %vault_suffix%"

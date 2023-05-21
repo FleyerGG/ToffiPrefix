@@ -1,0 +1,36 @@
+commands:
+  # Если есть право commandblocker.hacks команды можно прописывать
+  # Если нет права commandblocker.hacks команды прописывать нельзя
+
+  hacks:
+    commands:
+      - "/gm*"
+      - "/heal*"
+      - "/feed"
+    permission: "commandblocker.hacks"
+    message: "&cНадеюсь у тебя нет желания потерять свой донат"
+  toffiprefix:
+    commands:
+      - "/toffiprefix*"
+    permission: "commandblocker.prefixes"
+    message: "&cНедостаточно прав, купите донат Мэр"
+  prefixes:
+    commands:
+      - "/fly"
+      - "/prefix all"
+      - "/prefix tab"
+      - "/prefix mask"
+    permission: "commandblocker.prefixes"
+    message: "&cНедостаточно прав, купите донат Мэр"
+
+  prefixlist:
+    commands:
+      - "/prefix list"
+    permission: "commandblocker.prefixlist"
+    message: "&cНедостаточно прав, купите донат Вип"
+
+  console:
+    commands:
+      - "/console"
+    permission: "commandblocker.console"
+    message: "&cНедостаточно прав, купите донат Консоль"
